@@ -3,6 +3,7 @@ import java.util.*;
 
 public class project {
     public static void main(String args[]) {
+        int pin=123;
         System.out.println("ATM");
         System.out.println("insert your ATM card");
         System.out.println(
@@ -13,7 +14,7 @@ public class project {
         int n = s.nextInt();
         System.out.println("enter the pin:");
         int y = s.nextInt();
-        if (y == 123) {
+        if (y == pin) {
             int totalamount = 100000;
             float withdraw, deposit;
             System.out.println("1.Account balance");
