@@ -33,7 +33,7 @@ public class project {
                     if (withdraw <= totalamount) {
                         System.out.println("your account balance: " + (totalamount - withdraw));
                     } else {
-                        System.out.println("oops something went wrong!");
+                        System.out.println("lesser ammount");
                     }
                     break;
 
@@ -44,6 +44,12 @@ public class project {
                     System.out.println("ur balence is" + (totalamount + deposit));
                     break;
                 }
+                default:
+                {
+                    System.out.print("enter the valid option");
+                    break;
+                }
+
             }
         } 
         else 
